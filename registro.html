@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <title>Documento principal</title>
+    <style>
+        p{
+          color: aquamarine;
+        }
+      </style>
+    <link rel="stylesheet" href="./miestilo.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+
+</head>
+<body>
+
+   <div class="container">
+        <h2>Registro de Usuario</h2>
+        <div class="container mt-5 mb-5 d-flex justify-conter">
+    
+    
+            <div class="card" style="width: 50%;">
+                <div class="card-body">
+        <form action="registro.php" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form-group">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmar_contrasena">Confirmar Contraseña</label>
+                <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
+            </div>
+            <button type="submit">Registrarse</button>
+           <a href="/asset/login" class="btn btn-danger">cancelar</a>
+           <a href="./" class="btn btn-primary">Volver</a>
+        </form>
+   
+    </div>
+    </div>
+</div>
+</div>
+    <footer>
+        <div class="footer-content">
+            <img src="https://talentosdigitales.ar/assets/img/index/facebook.svg" alt="facebook" srcset="">
+            <img src="https://talentosdigitales.ar/assets/img/index/gorjeo.svg" alt="twitter" srcset="">
+            <img src="https://talentosdigitales.ar/assets/img/index/instagram.svg" alt="instagram" srcset="">
+
+        </div>
+        <p class="p1">
+            Derecho de autor ©️ 2024
+        </p>
+    </footer>
+</body>
+</html>

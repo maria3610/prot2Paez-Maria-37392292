@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-tofit=no">
+    <title> Mapa de google- corrientes</title>
+    <style>
+      p{
+        color: rgb(27, 216, 90);
+      }
+    </style>
+    <link rel="stylesheet" href="./miestilo.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <img src="https://talentosdigitales.ar/assets/img/logoHeader-green.png" alt="talentos Digitales"
+            srcset="https://talentosdigitales.ar/assets/img/logoHeader-green.png 1x, https://talentosdigitales.ar/assets/img/logoHeader-green.png 2x">
+        <h1>
+            Bienvenido a Nuestra Empresa
+        </h1>
+    </header>
+    
+<
+    <body>
+        <div class="jumbotron">
+            <h1>Donde Estamos</h1>
+            <h2>Mirá nuestra oferta de  CURSOS</h2> 
+            <p class="lead">Suscribite</p>
+            <a href="https://moodle-telco.unne.edu.ar/?redirect=0" class="btn">Aprende Más</a>
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <script>
+<img src="asset/imag/avenidacorrientes_maipu" class="d-block w-100" alt="comp">        
+    function initMap() {
+                // Coordenadas de Corrientes
+                var corrientes = { lat: -27.4806, lng: -58.8341 };
+                // Creación del mapa centrado en Corrientes
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 12,
+                    center: corrientes
+                });
+                // Añadir un marcador en Corrientes
+                var marker = new google.maps.Marker({
+                    position: corrientes,
+                    map: map
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1> Corrientes</h1>
+            <p class="lead">Explora la hermosa ciudad de Corrientes con nuestro mapa interactivo.</p>
+            <a href="" class="btn">Más Información</a>
+        </div>
+        <div id="map"></div>
+    </body>
+    </div>
+   </div>
+   <footer>
+    <div class="footer-content">
+        <img src="https://talentosdigitales.ar/assets/img/index/facebook.svg" alt="facebook" srcset="">
+        <img src="https://talentosdigitales.ar/assets/img/index/gorjeo.svg" alt="twitter" srcset="">
+        <img src="https://talentosdigitales.ar/assets/img/index/instagram.svg" alt="instagram" srcset="">
+
+    </div>
+    <p class="p1">
+        Derecho de autor ©️ 2024
+    </p>
